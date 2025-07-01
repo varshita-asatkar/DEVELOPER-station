@@ -47,3 +47,6 @@ Runs on:
 - React
 - Axios
 - HTML/CSS
+ ## 🌐 Live Demo
+
+[Click here to view the live project](https://6863b9cb3cf1afb32929a3dc--clinquant-jelly-a43ca7.netlify.app/)
