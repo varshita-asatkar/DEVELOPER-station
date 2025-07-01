@@ -1,0 +1,183 @@
+.landing-page {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f7fbff;
+  color: #222;
+  padding: 20px;
+}
+
+/* Navbar/Header */
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.business-name {
+  font-size: 1.8em;
+  color: #fff;
+  margin: 0;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  color: white;
+  border-radius: 12px;
+  margin-bottom: 50px;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+/* Section Titles */
+section h2 {
+  text-align: center;
+  color: #004aad;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+/* Cards Grid */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+/* Project and Client Cards */
+.card {
+  background-color: #ffffff;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 15px 10px 5px;
+  font-size: 1.3em;
+}
+
+.card h4 {
+  margin: 5px;
+  font-weight: normal;
+  color: #666;
+}
+
+.card p {
+  padding: 0 15px 15px;
+  font-size: 0.95em;
+}
+
+/* Read More Button */
+.card button {
+  background: linear-gradient(45deg, #ff5858, #f857a6);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background: linear-gradient(45deg, #f857a6, #ff5858);
+}
+
+/* Newsletter */
+.newsletter {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.newsletter-form input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.newsletter-form button {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+}
+
+/* Contact Us */
+.contact {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: linear-gradient(45deg, #ff5858, #f857a6);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(45deg, #f857a6, #ff5858);
+}
